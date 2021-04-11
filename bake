@@ -1,10 +1,6 @@
 MACHINE="sockit"
 nice bitbake -k tmu-sde || return
 
-# MACHINE="sockit"
-# nice bitbake -k tmu-sre || return
-
-# MACHINE="qemu-cortexa9t2hf-neon"
 # SDKMACHINE="x86_64"
 # nice bitbake -k tmu-sdk -c populate_sdk || return
 # SDKMACHINE="x86_64-mingw32"
